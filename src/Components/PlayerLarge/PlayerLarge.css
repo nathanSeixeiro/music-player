@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+.player-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 38.4119px;
+  gap: 28.81px;
+  
+  position: absolute;
+  width: 266.48px;
+  height: 498px;
+  left: 590px;
+  top: 60px;
+  
+  background: #2A2141;
+  border-radius: 9.60297px;
+}
+
+.img-player {
+  width: 189.66px;
+  height: 189.66px;
+
+  border-radius: 6.00185px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.names-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 9.6px;
+
+  width: 189.66px;
+  height: 52.6px;
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.name-music {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+
+  width: 171px;
+  height: 24px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+h2 {
+  width: 171px;
+  height: 24px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+
+  color: #e1e1e6;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.name-band {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+
+  width: 155px;
+  height: 19px;
+
+  opacity: 0.67;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+p {
+  width: 155px;
+  height: 19px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19.2059px;
+  line-height: 100%;
+
+  color: #868395;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.players-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 50.42px;
+
+  width: 189.66px;
+  height: 28.81px;
+
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.progress-copntainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 9.6px;
+
+  width: 189.66px;
+  height: 38.6px;
+
+  flex: none;
+  order: 3;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.progress {
+  margin-top: 29px;
+  position: relative;
+}
+
+.progress::before {
+  content: "";
+
+  width: 100%;
+  height: 6px;
+
+  display: block;
+  position: absolute;
+  background: #d9d9d9;
+  opacity: 0.3;
+  border-radius: 9.60297px;
+}
+
+.progress::after {
+  content: "";
+
+  width: 80%;
+  height: 6px;
+
+  display: block;
+
+  background: #d9d9d9;
+  /* opacity: 0.8; */
+  border-radius: 9.60297px;
+}
+
+.time {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 9.6px;
+
+  width: 189.66px;
+  height: 23px;
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.time p {
+  font-size: 14.4045px;
+  padding-bottom: 29px;
+}
